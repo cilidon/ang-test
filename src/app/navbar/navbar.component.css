@@ -1,5 +1,21 @@
 .nav{
-    background-color: chartreuse;
     color: cornsilk;
-    
+    height: 50px;
+}
+.log{
+    height: 45px;
+    padding-top: 10px;
+}
+.navlist{
+    list-style-type:none;
+    display: block;
+}
+.navlist li{
+    display: inline-block;
+    position: relative;
+}
+.navlist li a{
+    padding-top: 15px;
+    padding-left: 20px;
+    outline: 0;
 }
